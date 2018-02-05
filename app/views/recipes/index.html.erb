@@ -1,0 +1,10 @@
+<h1>Recipes</h1>
+<div className = "row">
+  <div className = "columns small-9">
+    <ul>
+      <%@recipes.each do |recipe|%>
+        <li><%=link_to recipe.title, recipe_path(recipe)%></li>
+      <%end%>
+    </ul>
+  </div>
+</div>
