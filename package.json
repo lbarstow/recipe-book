@@ -25,9 +25,8 @@
     "webpack-dev-server": "^2.11.1"
   },
   "scripts": {
-    "test": "node_modules/.bin/karma start karma.conf.js",
     "start": "./bin/webpack-dev-server",
-    "webpack": "node_modules/.bin/webpack --config ./react/webpack.config.js"
+    "test": "node_modules/.bin/karma start karma.conf.js"
   },
   "engines": {
     "node": ">=4.0"
